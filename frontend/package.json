@@ -1,0 +1,40 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.10.1",
+    "clsx": "^1.2.1",
+    "currency.js": "^2.0.4",
+    "lodash": "^4.17.21",
+    "material-ui-search-bar": "^1.0.0",
+    "preact": "^10.10.1",
+    "pure-react-carousel": "^1.29.0",
+    "react-currency-input-field": "^3.6.4",
+    "react-image-gallery": "^1.2.9",
+    "react-modal-image": "^2.5.0",
+    "react-router-dom": "^6.3.0",
+    "react-scrollable-box": "^0.2.1",
+    "react-virtualized": "^9.22.3",
+    "recharts": "^2.1.13"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.3.0",
+    "@types/node": "^18.7.13",
+    "react": "^18.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
+  },
+  "resolutions": {
+    "react-virtualized": "git+https://git@github.com/remorses/react-virtualized-fixed-import.git#9.22.3"
+  }
+}
