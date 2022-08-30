@@ -24,7 +24,7 @@ export default function SingleAuction(props) {
     const navigate = useNavigate()
 
     return (
-        <Card sx={{maxWidth: (minMaxWidth[1] || 340), minWidth: (minMaxWidth[0] || 300),}}>
+        <Card sx={{maxWidth: (minMaxWidth ? minMaxWidth[1] : 340), minWidth: (minMaxWidth ? minMaxWidth[0] : 300),}}>
             <CardActionArea onClick={() => navigate(`/auctions/${auction.id}`)}>
                 <CardHeader
                     avatar={
